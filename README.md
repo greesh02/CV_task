@@ -22,7 +22,9 @@ Follow the steps to run scripts.
 #
  • rosrun vitarana_drone attitude_controller.py
 #
- • rosrun vitarana_drone camera_im.py      -- for capturing the image and storing it(i was facing some issues with opencv which im still figuring out so i stored the image captured and save it at a location and then read it through another python script )
+ • rosrun vitarana_drone camera_im.py      
+ #
+ -- for capturing the image and storing it(i was facing some issues with opencv which im still figuring out so i stored the image captured and save it at a location and then read it through another python script )
 Also the change the location to where you want to save the captured image.
 
 # location of car and human clusters 
