@@ -15,10 +15,9 @@ Also I  was not able generate better results for predicting humans.
 # RUN
 Follow the steps to run scripts. 
 
-# World
+# World -(look images folder for worlds screenshot)
 : roslaunch vitarana_drone drone_land_new.launch
 
-![](images/world.jpg)
 # for the drone 
  • rosrun vitarana_drone position_controller.py
 #
@@ -38,7 +37,7 @@ longitude: 0.0
 altitude: 0.0" 
 #
 
-# YOLO object detection
+# YOLO object detection- (look images folder for prediction output)
 
 the code for object detection(not a ros node) is present inside vitarana_drone/Yolo folder. 
 This folder contains the weights and config file for the trained yolo model and camera.jpg is the image saved by the camer_im.py ros node. 
