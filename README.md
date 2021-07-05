@@ -13,13 +13,15 @@ Also I  was not able generate better results for predicting humans.
 
 
 # RUN
-# roslaunch vitarana_
+Follow the steps to run scripts. 
 
 # World
-roslaunch vitarana_drone drone_land_new.launch
+: roslaunch vitarana_drone drone_land_new.launch
 # for the drone 
  • rosrun vitarana_drone position_controller.py
+#
  • rosrun vitarana_drone attitude_controller.py
+#
  • rosrun vitarana_drone camera_im.py      -- for capturing the image and storing it(i was facing some issues with opencv which im still figuring out so i stored the image captured and save it at a location and then read it through another python script )
 Also the change the location to where you want to save the captured image.
 
