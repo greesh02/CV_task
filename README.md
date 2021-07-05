@@ -1,4 +1,4 @@
-# CV_task
+# CV_task - repo in Master branch
 # Dataset
 Initially after seeing the task i realized that i should be doing transfer learning because the existing model(pretrained version) available in darknet was not trained in such kind of images(as the drone captures top view images from certain heights ).So i searche for similar kind of dataset in github and other sites and came accross a dataset which contains images captured by drones with annotations(bounding box info),i had to do certain changes to those annotations ,i wrote a  script for that(as the provided annotations had unwanted infos like truncation,score,and occulution which was not needed by yolo for training).
 
@@ -14,6 +14,7 @@ Also I  was not able generate better results for predicting humans.
 
 # Instructions to RUN 
 Follow the steps to run scripts. 
+Clone the repo from Master branch into the catkin workspace and rename it to vitarana_drone(important).then build and follow the rest. 
 
 # World -(look images folder for worlds screenshot)
 : roslaunch vitarana_drone drone_land_new.launch
