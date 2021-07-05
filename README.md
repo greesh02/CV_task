@@ -12,7 +12,7 @@ I was not able to utilize the zoom option ,so the drone had to move at altitude 
 Also I  was not able generate better results for predicting humans. 
 
 
-# RUN
+# Instructions to RUN 
 Follow the steps to run scripts. 
 
 # World -(look images folder for worlds screenshot)
