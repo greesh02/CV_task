@@ -39,7 +39,7 @@ longitude: 0.0
 altitude: 0.0" 
 #
 
-# YOLO object detection- (look images folder for prediction output)
+# YOLO object detection- (look images folder for prediction output and training loss)
 
 the code for object detection(not a ros node) is present inside vitarana_drone/Yolo folder. 
 This folder contains the weights and config file for the trained yolo model and camera.jpg is the image saved by the camer_im.py ros node. 
