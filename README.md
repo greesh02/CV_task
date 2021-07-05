@@ -18,22 +18,23 @@ Also I  was not able generate better results for predicting humans.
 # World
 roslaunch vitarana_drone drone_land_new.launch
 # for the drone 
-rosrun vitarana_drone position_controller.py
-rosrun vitarana_drone attitude_controller.py
-rosrun vitarana_drone camera_im.py      -- for capturing the image and storing it(i was facing some issues with opencv which im still figuring out so i stored the image captured and save it at a location and then read it through another python script )
+ • rosrun vitarana_drone position_controller.py
+ • rosrun vitarana_drone attitude_controller.py
+ • rosrun vitarana_drone camera_im.py      -- for capturing the image and storing it(i was facing some issues with opencv which im still figuring out so i stored the image captured and save it at a location and then read it through another python script )
 Also the change the location to where you want to save the captured image.
 
 # location of car and human clusters 
 i have attached the latitude ,longitude and height(which is 35) coordinates for the location of clusters of humans and vehicles in a text file inside vitarana_drone/scripts folder
 So to change lat long and alt of drone(to make the drone move over there).we should publish the corresponding lat, long and alt in custom rostopic /set_point_pub
 --------------------------------------------------------------------
-rostopic pub /set_point_pub vitarana_drone/SetPoints "latitude: 0.0          
+• rostopic pub /set_point_pub vitarana_drone/SetPoints "latitude: 0.0          
 longitude: 0.0
 altitude: 0.0" 
 ---------------------------------------------------------------------
 
 # YOLO object detection
-the code for object detection(not a ros node) is present inside vitarana_drone/Yolo folder
+the code for object detection(not a ros node) is present inside vitarana_drone/Yolo folder. 
+
 
 
 
