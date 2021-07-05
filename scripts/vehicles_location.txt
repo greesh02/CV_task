@@ -1,0 +1,3 @@
+"latitude: 18.9998146243
+longitude: 72.0001874198
+altitude: 35.0" 
