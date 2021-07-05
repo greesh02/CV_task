@@ -1,11 +1,12 @@
 # CV_task - (clone repo from Master branch)
-# Yolo model - 6 classes
- • pedestrian,people,car,van,truck,bus
- #
+
 # Dataset
 Initially after seeing the task i realized that i should be doing transfer learning because the existing model(pretrained version) available in darknet was not trained in such kind of images(as the drone captures top view images from certain heights ).So i searche for similar kind of dataset in github and other sites and came accross a dataset which contains images captured by drones with annotations(bounding box info),i had to do certain changes to those annotations ,i wrote a  script for that(as the provided annotations had unwanted infos like truncation,score,and occulution which was not needed by yolo for training).
 
 dataset link : http://aiskyeye.com/
+# Yolo model - 6 classes
+ • model trained with 6 class of images - pedestrian,people,car,van,truck,bus
+ #
 # Drone
 I utilized the vitrana drone model and attitude and position control scripts which i used in eyntra competition ,because my task was more focused on CV part rather than the control system and so on.
 # CV
