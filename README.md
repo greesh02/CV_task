@@ -18,7 +18,7 @@ Follow the steps to run scripts.
 # World
 : roslaunch vitarana_drone drone_land_new.launch
 
-![](bot%20images/side.jpeg)
+![](world.jpg)
 # for the drone 
  • rosrun vitarana_drone position_controller.py
 #
