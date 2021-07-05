@@ -13,7 +13,6 @@ Also I  was not able generate better results for predicting humans.
 
 
 # Instructions to RUN 
-Follow the steps to run scripts. 
 Clone the repo from Master branch into the catkin workspace and rename it to vitarana_drone(important).then build and follow the rest. 
 
 # World -(look images folder for worlds screenshot)
