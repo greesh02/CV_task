@@ -5,7 +5,7 @@ Initially after seeing the task i realized that i should be doing transfer learn
 
 dataset link : http://aiskyeye.com/
 
-drive link(containing the datawith which i trained) - https://drive.google.com/drive/folders/1tkcf0fizDAFn4mTcYHCos3EopxFSmNZ0?usp=sharing
+drive link(containing the data with which i trained) - https://drive.google.com/drive/folders/1tkcf0fizDAFn4mTcYHCos3EopxFSmNZ0?usp=sharing
 # Yolo model - 6 classes
  • model trained with 6 class of images - pedestrian,people,car,van,truck,bus
  #
