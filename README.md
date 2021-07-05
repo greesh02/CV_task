@@ -28,11 +28,11 @@ Also the change the location to where you want to save the captured image.
 # location of car and human clusters 
 i have attached the latitude ,longitude and height(which is 35) coordinates for the location of clusters of humans and vehicles in a text file inside vitarana_drone/scripts folder
 So to change lat long and alt of drone(to make the drone move over there).we should publish the corresponding lat, long and alt in custom rostopic /set_point_pub
---------------------------------------------------------------------
+#
 • rostopic pub /set_point_pub vitarana_drone/SetPoints "latitude: 0.0          
 longitude: 0.0
 altitude: 0.0" 
----------------------------------------------------------------------
+#
 
 # YOLO object detection
 the code for object detection(not a ros node) is present inside vitarana_drone/Yolo folder. 
