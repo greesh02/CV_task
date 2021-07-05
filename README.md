@@ -28,9 +28,11 @@ Follow the steps to run scripts.
  -- for capturing the image and storing it(i was facing some issues with opencv which im still figuring out so i stored the image captured and save it at a location and then read it through another python script )
 Also the change the location to where you want to save the captured image.
 
+# Note:-
+run all the above 4 commands in the terminal(compulsory )
+
 # location of car and human clusters 
-i have attached the latitude ,longitude and height(which is 35) coordinates for the location of clusters of humans and vehicles in a text file inside vitarana_drone/scripts folder
-So to change lat long and alt of drone(to make the drone move over there).we should publish the corresponding lat, long and alt in custom rostopic /set_point_pub
+i have attached the latitude ,longitude and height(which is 35) coordinates for the location of clusters of humans and vehicles in a text file inside vitarana_drone/scripts folder.So to change lat long and alt of drone(to make the drone move over there).we should publish the corresponding lat, long and alt in custom rostopic /set_point_pub
 #
 • rostopic pub /set_point_pub vitarana_drone/SetPoints "latitude: 0.0          
 longitude: 0.0
